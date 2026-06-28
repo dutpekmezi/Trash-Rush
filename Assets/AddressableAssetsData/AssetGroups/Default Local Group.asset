@@ -15,13 +15,18 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_GUID: 5987400697da8764592ef35375e4fde6
   m_SerializeEntries:
-  - m_GUID: fbe5186036668b1459edc24af5294a00
-    m_Address: Assets/Scenes/GameScene.prefab
+  - m_GUID: 52f6170564d34da9a71f6e752e3a5e7d
+    m_Address: Assets/Datas/Levels/Level01.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 52f6170564d34da9a71f6e752e3a5e7d
-    m_Address: Assets/Datas/Levels/Level01.asset
+  - m_GUID: 73bb0068a5f34cb40882cf91fa9580fe
+    m_Address: Assets/Datas/Levels/Level01 1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbe5186036668b1459edc24af5294a00
+    m_Address: Assets/Scenes/GameScene.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

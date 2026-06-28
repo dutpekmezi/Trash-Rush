@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-#if UNITY_IOS
+#if UNITY_IOS && !UNITY_EDITOR
 using Unity.Advertisement.IosSupport;
 #endif
 
@@ -13,7 +13,7 @@ namespace GameLift.PrivacyConsent
         {
             Debug.Log("[PrivacyConsentService] RequestConsentAsync started.");
 
-#if UNITY_IOS
+#if UNITY_IOS && !UNITY_EDITOR
             var status = ATTrackingStatusBinding.GetAuthorizationTrackingStatus();
             Debug.Log($"[PrivacyConsentService] Current ATT status: {status}");
 
@@ -37,7 +37,7 @@ namespace GameLift.PrivacyConsent
             Debug.Log($"[PrivacyConsentService] RequestConsentAsync completed. Result: {authorized}");
             return authorized;
 #else
-            Debug.Log("[PrivacyConsentService] Non-iOS platform, skipping ATT. Returning true.");
+            Debug.Log("[PrivacyConsentService] ATT is unavailable on this platform, skipping consent prompt.");
             return true;
 #endif
         }

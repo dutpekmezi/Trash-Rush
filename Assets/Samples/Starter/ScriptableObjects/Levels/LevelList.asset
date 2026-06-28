@@ -29,3 +29,11 @@ MonoBehaviour:
       m_EditorAssetChanged: 0
     <IsLoopable>k__BackingField: 1
     <Difficulty>k__BackingField: 0
+  - <Level>k__BackingField:
+      m_AssetGUID: 73bb0068a5f34cb40882cf91fa9580fe
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <IsLoopable>k__BackingField: 1
+    <Difficulty>k__BackingField: 0

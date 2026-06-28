@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 21b1d4c75ad847219da038aebbbe271d, type: 3}
-  m_Name: Level01
+  m_Name: Level01 1
   m_EditorClassIdentifier: 
-  <Index>k__BackingField: 0
+  <Index>k__BackingField: 1
   _slashObjects:
   - {fileID: 11400000, guid: e43f72c341d0ccc46953a8bf99bb8f16, type: 2}
+  - {fileID: 11400000, guid: e5ef5f56e62106f4c944a7992976fad3, type: 2}

@@ -134,7 +134,6 @@ MonoBehaviour:
   extensionBases:
   - {fileID: 8563357150716892123}
   - {fileID: 2767996567149568133}
-  - {fileID: 0}
   - {fileID: 6109954171471975827}
   canvasGroup: {fileID: 55411612544417306}
   _claimButton: {fileID: 3923388257282848912}
