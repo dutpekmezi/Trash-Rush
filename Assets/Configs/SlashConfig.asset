@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21d4f9a5c574347a6a4b379f5071002, type: 3}
+  m_Name: SlashConfig
+  m_EditorClassIdentifier: 
+  _scaleTime: 0.12
+  _holdTime: 0.3
+  _descaleTime: 0.3
+  _minDragWorldDistance: 1
+  _pulseEnabled: 1
+  _pulseScale: 1.1
+  _pulseTime: 0.18
+  _scaleEase: 27
+  _pulseEase: 4
+  _descaleEase: 18
+  _useUnscaledTime: 0
+  _decalProjectorLifetime: 3
+  _decalProjectorFadeTime: 0.35
+  _decalProjectorMinHeight: 2.5
+  _decalProjectorMaxHeight: 10
+  _streakResetDelay: 1
+  _backgroundSlashEnabled: 1
+  _backgroundSlashLifetime: 2
+  _backgroundSlashFadeTime: 0.35
+  _backgroundSlashMinHeight: 5
+  _backgroundSlashMaxHeight: 10
+  _backgroundSlashScaleMultiplier: {x: 1, y: 1}
+  _backgroundSlashColor: {r: 1, g: 1, b: 1, a: 1}
+  _backgroundSlashSortingOrderOffset: 1
+  _leafWindRadius: 5
+  _leafWindVelocityImpulse: 6
+  _leafWindMaxVelocity: 20

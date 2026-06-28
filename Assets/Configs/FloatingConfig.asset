@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b21d4f9a5c574347a6a4b379f5071007, type: 3}
+  m_Name: FloatingConfig
+  m_EditorClassIdentifier: 
+  _rotationEnabled: 1
+  _minRotationDuration: 4
+  _maxRotationDuration: 7
+  _minRotationAngle: 45
+  _maxRotationAngle: 145
+  _maxStartDelay: 0.45
+  _axisWeights: {x: 1, y: 0.65, z: 1}
+  _rotationEase: 4
+  _useUnscaledTime: 0
