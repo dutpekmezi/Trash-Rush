@@ -766,8 +766,7 @@ namespace TrashRush.Game
             var worldRotationAxis = Vector3.Cross(_camera.transform.forward, slashDirection).normalized;
             var localRotationAxis = rotationTarget.InverseTransformDirection(worldRotationAxis).normalized;
             var rotationAngle =
-                GetHitRotationAngle(projectorHeight) *
-                _hitEffectConfig.GetRotationStrengthMultiplier(streak);
+                GetHitRotationAngle(projectorHeight) * _hitEffectConfig.GetRotationStrengthMultiplier(streak) * -1;
             var rotationOffset = localRotationAxis * rotationAngle;
             var rotationTween = rotationTarget
                 .DOBlendableLocalRotateBy(
